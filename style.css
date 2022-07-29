@@ -1,0 +1,250 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+header{
+  background-color: #4617FE;
+  margin: -8px -8px -8px -8px;
+  padding: 30px 80px 30px 80px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+}
+nav{
+  float: right;
+  align-items: center;
+
+}
+.nav-item{
+  padding-left: 10px;
+  padding-right: 10px;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 100;
+}
+.nav-item-active{
+  padding-left: 10px;
+  padding-right: 10px;
+  color:#4617FE;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 1vh 3vh;
+  border-radius: 4px; 
+  background-color: #fff;
+}
+
+.header-text{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: 70px;
+  margin-bottom: 110px;
+}
+.header-text>p{
+  font-size: 18px;
+}
+.header-image{
+  float: right;
+  position: relative;
+  bottom: 380px;
+  left: 80px;
+}
+.company-items{
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+  font-weight:900;
+  text-decoration: none;
+}
+
+.companies{
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.api{
+  margin-left: 60px ;
+  margin-right: 60px;
+  margin-top: 90px;
+  height: 400px;
+}
+
+.api-heading{
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 85vw;
+  position: relative;
+  bottom: 150px;
+}
+.card-active:hover{
+  color: #5A31FC;
+}
+.cards::after{
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: block;
+  background-color: #4617FE;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+.cards::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  box-shadow: -3px 3px 0 #fff;
+  transform: rotate(-135deg);
+  display: block;
+  position: relative;
+  left: 1135px;
+  top: 65px;
+  z-index: 1;
+}
+.blog-heading{
+  margin-left: 60px;
+  font-size: 20px;
+}
+.blog-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.blog-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  left: 30px;
+}
+.blog-bottom{
+  position: relative;
+  right: 130px;
+  top: 260px;
+}
+.blog-content{
+  position: relative;
+  left: 50px;
+}
+.blog-author{
+  position: relative;
+  right: 60px;
+  top: 140px;
+}
+.faq-section{
+  background-color: #E9EDFF;
+  position: relative;
+  top: 60px; 
+  height: 300px; 
+  
+}
+.faq-content{
+  float:left;
+  margin-left: 60px;
+}
+.faq-image{
+  float: right;
+}
+
+div>div>button{
+  background-color: #5A31FC;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+}
+.download-section{
+  height: 250px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.download-content>h1{
+  font-weight: 900;
+}
+.download-content>h1>span{
+  font-weight: 100;
+}
+input{
+  width: 530px;
+  height: 40px;
+  border-radius: 25px;
+  border:none;
+  background-color: #E9EDFF;
+  position: relative;
+  left: 157px;
+  z-index: -1;
+}
+input::placeholder{
+  color: #000;
+  position: relative;
+  left: 30px;
+}
+.download-email>form>button{
+  height: 40px;
+  width: 150px;
+  border-radius: 25px;
+  border:none;
+  background-color: #5A31FC;
+  color: #fff;
+  font-weight: 100;
+}
+.footer-section{
+display: flex;
+flex-direction: row;
+background-color: #4718FD;
+justify-content: space-between;
+padding:60px 80px 80px 60px;
+}
+.footer-left{
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo{
+  width: 123px;
+  height: 42;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  right: 50px;
+}
+.list-items{
+  list-style-type: none;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer-right-logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.logos-list{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 25px;
+}
+
+.footer-right{
+  display: flex;
+  flex-direction: column;
+}
