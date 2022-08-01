@@ -8,24 +8,23 @@
 
 header{
   background-color: #4617FE;
-  margin: -8px -8px -8px -8px;
-  padding: 30px 80px 30px 80px;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; */
+  margin: -8px;
+  padding: 30px 80px;
 }
+
 nav{
   float: right;
   align-items: center;
-
 }
+
 .nav-item{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   color:#fff;
   font-size: 15px;
   font-weight: 100;
 }
+
 .nav-item-active{
   padding-left: 10px;
   padding-right: 10px;
@@ -44,15 +43,18 @@ nav{
   margin-top: 70px;
   margin-bottom: 110px;
 }
+
 .header-text>p{
   font-size: 18px;
 }
+
 .header-image{
   float: right;
   position: relative;
   bottom: 380px;
   left: 80px;
 }
+
 .company-items{
   font-size: 24px;
   padding-left: 15px;
@@ -82,14 +84,17 @@ nav{
 .cards{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 85vw;
   position: relative;
   bottom: 150px;
 }
+
 .card-active:hover{
   color: #5A31FC;
 }
+
 .cards::after{
   content: "";
   width: 50px;
@@ -101,6 +106,7 @@ nav{
   top: 50px;
   left: 20px;
 }
+
 .cards::before{
   content: "";
   width: 20px;
@@ -109,19 +115,23 @@ nav{
   transform: rotate(-135deg);
   display: block;
   position: relative;
-  left: 1135px;
+  left: 1383px;
   top: 65px;
   z-index: 1;
 }
+
 .blog-heading{
   margin-left: 60px;
   font-size: 20px;
 }
+
 .blog-cards{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .blog-card{
   display: flex;
   flex-direction: row;
@@ -129,33 +139,42 @@ nav{
   position: relative;
   left: 30px;
 }
+
 .blog-bottom{
   position: relative;
   right: 130px;
   top: 260px;
 }
+
 .blog-content{
   position: relative;
   left: 50px;
 }
+
 .blog-author{
   position: relative;
   right: 60px;
   top: 140px;
 }
+
 .faq-section{
   background-color: #E9EDFF;
   position: relative;
   top: 60px; 
-  height: 300px; 
-  
+  height: 300px;  
 }
+
 .faq-content{
   float:left;
   margin-left: 60px;
 }
+
 .faq-image{
   float: right;
+}
+
+.faq-image>img{
+  height: 300px;
 }
 
 div>div>button{
@@ -165,21 +184,27 @@ div>div>button{
   border-radius: 5px;
   border: none;
 }
+
 .download-section{
   height: 250px;
   width: 1200px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-left: 60px;
   margin-right: 60px;
 }
+
 .download-content>h1{
   font-weight: 900;
 }
+
 .download-content>h1>span{
   font-weight: 100;
 }
+
 input{
   width: 530px;
   height: 40px;
@@ -190,11 +215,13 @@ input{
   left: 157px;
   z-index: -1;
 }
+
 input::placeholder{
   color: #000;
   position: relative;
   left: 30px;
 }
+
 .download-email>form>button{
   height: 40px;
   width: 150px;
@@ -204,21 +231,26 @@ input::placeholder{
   color: #fff;
   font-weight: 100;
 }
+
 .footer-section{
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 background-color: #4718FD;
 justify-content: space-between;
 padding:60px 80px 80px 60px;
 }
+
 .footer-left{
   display: flex;
   flex-direction: column;
 }
+
 .footer-logo{
   width: 123px;
   height: 42;
 }
+
 .list{
   display: flex;
   flex-direction: row;
@@ -226,17 +258,20 @@ padding:60px 80px 80px 60px;
   position: relative;
   right: 50px;
 }
+
 .list-items{
   list-style-type: none;
   color: #fff;
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .footer-right-logos{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .logos-list{
   display: flex;
   flex-direction: row;
