@@ -86,9 +86,19 @@ nav{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 85vw;
+  width: 90vw;
   position: relative;
   bottom: 150px;
+}
+
+.card{
+  width: 200px;
+  margin-right: 20px;
+}
+
+.card-active{
+  width: 200px;
+  margin-right: 20px;
 }
 
 .card-active:hover{
@@ -115,7 +125,7 @@ nav{
   transform: rotate(-135deg);
   display: block;
   position: relative;
-  left: 1383px;
+  left: 1200px;
   top: 65px;
   z-index: 1;
 }
