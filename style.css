@@ -293,3 +293,182 @@ padding:60px 80px 80px 60px;
   display: flex;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 600px){
+
+  body{
+    overflow-x: hidden;
+  }
+  
+  .nav-item{
+    display: none;
+  }
+
+  .header-text{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .header-image{
+    float: none;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .header-text>p{
+    font-size: 15px;
+  }
+
+  .companies{
+    padding-left: 20px;
+  }
+
+  .company-items{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .api{
+    margin: 20px;
+    height: 100%;
+  }
+
+  .api-heading{
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .cards{
+    flex-direction: row;
+    position: relative;
+    bottom: 0px;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .card{
+    margin-right: 0px;
+    margin: 10px;
+  }
+
+  .cards::after,
+  .cards::before{
+    display: none;
+  }
+
+  .blog-heading{
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .blog-cards{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .blog-image>img{
+    width: 30vw;
+  }
+
+  .blog-card{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 0px;
+    margin-left: 80px;
+  }
+
+  .blog-content>h6{
+    margin: 0px;
+  }
+
+  .blog-content>h3{
+    margin: 0px;
+    margin-top: 10px;
+    line-height: 150%;
+    font-size: 13px;
+  }
+
+  .blog-content>small{
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 11px;
+  }
+
+  .blog-bottom{
+    position: relative;
+    right: 120px;
+    top: 180px;
+  }
+
+  .blog-bottom>img{
+    width: 40px;
+  }
+
+  .blog-author{
+    position: relative;
+    right: 60px;
+    top: 95px;
+  }
+
+  .faq-section{
+    background-color: #E9EDFF;
+    background-image: url(images/faqRectangle\ 1.png);
+    background-size: 100%;
+    background-blend-mode: normal;
+    position: relative;
+    top: 0px; 
+    height: 55vh;  
+  }
+
+  .faq-image{
+    display: none;
+  }
+
+  .download-section{
+    width: 100vw;
+    height: 30vh;
+    padding-bottom: 50px;
+  }
+
+  form{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  input{
+    position: relative;
+    left: 0px;
+    width: 50vw;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+
+  .download-email>form>button{
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+  }
+
+  .footer-section{
+    padding: 40px 60px;
+    align-items: center;
+  }
+
+  .list{
+    display: none;
+  }
+
+  .logos-list{
+    display: none;
+  }
+
+  .footer-logos{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
